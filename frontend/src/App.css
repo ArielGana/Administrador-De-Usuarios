@@ -1,0 +1,139 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 0;
+}
+h1 {
+  display: flex;
+  margin-left: 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#buttonedit {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  position: fixed;
+  width: 100;
+}
+#form1,
+#form2 {
+  flex: 1;
+}
+#deleteBtn {
+  background-color: red;
+}
+#editBtn {
+  background-color: rgb(178, 178, 12);
+}
+.formedit {
+  display: block;
+}
+/* Estilo general para la tabla */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* Estilo para el encabezado de la tabla */
+th {
+  background-color: #f2f2f2;
+  padding: 12px;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Estilo para las celdas del cuerpo de la tabla */
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Estilo para las filas alternas */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Estilo para la fila actual cuando se pasa el ratón sobre ella */
+tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Estilo para el encabezado de la tabla */
+thead {
+  background-color: #333;
+  color: black;
+}
+
+/* Estilo para el texto en la tabla */
+td,
+th {
+  font-family: Arial, sans-serif;
+}
+.form-group {
+  margin-left: 0px;
+}
+label {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
